@@ -1,10 +1,12 @@
 # PTScanner - Advanced Path Traversal Vulnerability Scanner
 
 ![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)
-![npm](https://img.shields.io/npm/v/ptscanner)
+[![npm version](https://img.shields.io/npm/v/ptscanner.svg)](https://www.npmjs.com/package/ptscanner)
+[![npm downloads](https://img.shields.io/npm/dt/ptscanner.svg)](https://www.npmjs.com/package/ptscanner)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 [![GitHub Issues](https://img.shields.io/github/issues/odaysec/ptscanner)](https://github.com/odaysec/ptscanner/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/odaysec/ptscanner)](https://github.com/odaysec/ptscanner/stargazers)
+
 
 PTScanner adalah alat profesional untuk mendeteksi kerentanan Path Traversal/Local File Inclusion (LFI), di-porting dari [ApachSAL](https://github.com/pwnosec/ApachSAL) versi Python ke Node.js dengan berbagai peningkatan performa dan fitur.
 
