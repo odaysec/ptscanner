@@ -1,0 +1,51 @@
+{
+  "name": "@odaysec/ptscanner",
+  "version": "1.0.1",
+  "description": "Advanced Path Traversal Vulnerability Scanner - Node.js Port of ApachSAL",
+  "main": "src/cli.js",
+  "bin": {
+    "ptscanner": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js scan",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run test"
+  },
+  "keywords": [
+    "security",
+    "pentesting",
+    "lfi",
+    "path-traversal",
+    "vulnerability",
+    "scanner",
+    "apachsal",
+    "ptscanner"
+  ],
+  "author": "odaysec <github@zerodaysec.org> (https://github.com/odaysec)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odaysec/ptscanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/odaysec/ptscanner/issues"
+  },
+  "homepage": "https://github.com/odaysec/ptscanner#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "assets/",
+    "payloads.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

