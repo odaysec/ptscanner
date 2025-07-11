@@ -116,3 +116,5 @@ Anda dapat menambahkan payload custom dengan mengedit file `payloads.json`:
 
 ## Lisensi
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
+[![Star History Chart](https://api.star-history.com/svg?repos=odaysec/ptscanner&type=Date)](https://www.star-history.com/#odaysec/ptscanner&Date)
