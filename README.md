@@ -1,7 +1,7 @@
 # PTScanner - Advanced Path Traversal Vulnerability Scanner
 
 ![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)
-[![npm version](https://img.shields.io/npm/v/ptscanner.svg)](https://www.npmjs.com/package/ptscanner)
+[![npm version](https://img.shields.io/npm/v/ptscanner.svg)](https://www.npmjs.com/package/@odaysec/ptscanner)
 [![npm downloads](https://img.shields.io/npm/dt/ptscanner.svg)](https://www.npmjs.com/package/ptscanner)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 [![GitHub Issues](https://img.shields.io/github/issues/odaysec/ptscanner)](https://github.com/odaysec/ptscanner/issues)
